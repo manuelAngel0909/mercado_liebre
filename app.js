@@ -1,7 +1,7 @@
 const express= require("express")
 const app= express()
 app.listen(5010, ()=>{
-    console.log("corriendo en puerto 5000")
+    console.log("corriendo en puerto 5010")
 })
 app.use(express.static("public"))
 app.get("/", (req, res) => {
